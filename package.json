@@ -1,10 +1,13 @@
 {
+  "homepage": "https://Vislavathsunil.github.io/my-react-app",
   "name": "sample",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy":"gh-pages -d build",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
